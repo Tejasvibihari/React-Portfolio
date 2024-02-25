@@ -11,8 +11,8 @@ export default {
     keyframes: {
       bounce: {
         '0%, 100%': {
-          transform: 'translateY(-25%)',
-          animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
+          transform: 'translateY(-5%)',
+          animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
         },
         '50%': {
           transform: 'translateY(0)',
@@ -25,3 +25,5 @@ export default {
   plugins: [],
 
 }
+// cubic-bezier(0.8, 0, 1, 1)
+//cubic-bezier(0, 0, 0.2, 1)
