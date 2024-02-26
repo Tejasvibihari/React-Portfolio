@@ -5,7 +5,7 @@ import { WavyBackground } from "./ui/wavy-background";
 export default function WavyBackgroundDemo() {
 
     return (
-        <WavyBackground className="w-full mx-auto">
+        <WavyBackground className="max-w-full mx-auto">
             <HeroContent />
         </WavyBackground>
     );
