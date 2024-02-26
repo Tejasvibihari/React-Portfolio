@@ -3,13 +3,16 @@
 export default function ProjectCard({ img, title, description, link }) {
     return (
         <>
-            <div className="max-w-96 overflow-hidden bg-[#1f1f1f] border-[1px]">
+            <div className="max-w-96 overflow-hidden border-slate-700 border-[1px] bg-blend-soft-light hover:shadow-md hover:shadow-gray-500" style={{
+                background:
+                    "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
+            }}>
                 <div className="max-w-full p-3">
                     <img src={img} className="w-full" alt="" />
                 </div>
                 <div className="flex flex-col items-start p-4">
                     <h3 className="text-white text-center text-[25px]">{title}</h3>
-                    <p className="text-white text-[12.5px]">
+                    <p className="text-gray-400 text-[12.5px]">
                         {description}
                     </p>
                     <button className="flex mt-4">
