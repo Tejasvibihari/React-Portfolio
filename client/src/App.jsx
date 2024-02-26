@@ -1,11 +1,11 @@
 
 import WavyBackgroundDemo from './components/HeroBackground'
-import Project from './components/Project'
+import ProjectSection from './components/ProjectSection'
 export default function App() {
   return (
     <div className="">
       <WavyBackgroundDemo />
-      <Project/>
+      <ProjectSection />
     </div>
   )
 }
