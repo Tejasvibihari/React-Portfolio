@@ -18,35 +18,35 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
     {
         quote:
-            "./img/logo/nodejs.png",
+            "./img/logo/nodejs.webp",
         title: "Node Js",
     },
     {
-        quote: "./img/logo/reactjs.png",
+        quote: "./img/logo/reactjs.webp",
         title: "React",
     },
     {
-        quote: "./img/logo/expressjs.png",
+        quote: "./img/logo/expressjs.webp",
         title: "Express",
     },
     {
-        quote: "./img/logo/mongodb.png",
+        quote: "./img/logo/mongodb.webp",
         title: "Mongo Db",
     },
     {
-        quote: "./img/logo/bootstrap.png",
+        quote: "./img/logo/bootstrap.webp",
         title: "Bootstrap",
     },
     {
-        quote: "./img/logo/tailwind.png",
+        quote: "./img/logo/tailwind.webp",
         title: "Tailwind CSS",
     },
     {
-        quote: "./img/logo/ejs.png",
+        quote: "./img/logo/ejs.webp",
         title: "EJS",
     },
     {
-        quote: "./img/logo/git.png",
+        quote: "./img/logo/git.webp",
         title: "Git",
     },
 ];

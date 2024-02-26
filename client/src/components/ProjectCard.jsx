@@ -1,4 +1,4 @@
-
+import PropsTypes from "prop-types";
 
 export default function ProjectCard({ img, title, description, link }) {
     return (
@@ -26,4 +26,11 @@ export default function ProjectCard({ img, title, description, link }) {
             </div>
         </>
     )
+}
+
+ProjectCard.propTypes = {
+    img: PropsTypes.string,
+    title: PropsTypes.string,
+    description: PropsTypes.string,
+    link: PropsTypes.string,
 }

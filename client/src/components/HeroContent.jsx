@@ -28,14 +28,14 @@ export default function HeroContent() {
                     </div>
                     <div className="mt-10 flex flex-wrap gap-8 justify-items-start">
                         <button className="mx-2 hover:animate-bounce">
-                            <a href="#contact" className="px-8 py-3 hover:text-[#C084FC] bg-[#71D9D3] hover:bg-white hover:transition-colors hover:ease-in-out hover:duration-700 text-black font-bold">
+                            <a href="./file/Tejasvi Resume.pdf" target="_blank" className="px-8 py-3 hover:text-[#C084FC] bg-[#71D9D3] hover:bg-white hover:transition-colors hover:ease-in-out hover:duration-700 text-black font-bold">
                                 Download CV <span>
                                     <i className="fa-solid fa-arrow-down px-2 hover:animate-bounce font-bold"></i>
                                 </span>
                             </a>
                         </button>
                         <button className="mx-2 hover:animate-bounce">
-                            <a href="#contact" className="px-8 py-3 text-[#C084FC] bg-white hover:bg-[#71D9D3] hover:transition-colors ease-in-out hover:duration-700 hover:text-black font-bold">
+                            <a href="#social_section" className="px-8 py-3 text-[#C084FC] bg-white hover:bg-[#71D9D3] hover:transition-colors ease-in-out hover:duration-700 hover:text-black font-bold">
                                 Contact Me<span className="">
                                     <i className="px-2 fa-solid fa-user-tie"></i>
                                 </span>
@@ -44,7 +44,7 @@ export default function HeroContent() {
                     </div>
                 </div>
                 <div className="text-white flex items-center justify-center h-full animate-[bounce_1s_infinite_ease-in-out]">
-                    <img src="img/tejasvi banner.webp" className="md:w-96 w-80" />
+                    <img src="img/tejasviprofile.webp" className="md:w-96 w-80" />
                 </div>
             </div>
         </>
