@@ -84,10 +84,10 @@ export const StickyScroll = ({
                                         animate={{
                                             opacity: activeCard === index ? 1 : 0.3,
                                         }}
-                                        className="lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden"
+                                        className="lg:block w-fit rounded-md bg-black sticky top-10 items-center overflow-hidden"
                                     >
 
-                                        <img src={item.image} alt="" />
+                                        <img className="" src={item.image} alt="" />
 
                                     </motion.p>
                                 </div>

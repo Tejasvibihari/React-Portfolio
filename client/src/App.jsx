@@ -1,5 +1,5 @@
 
-import WavyBackgroundDemo from './components/HeroBackground'
+// import WavyBackgroundDemo from './components/HeroBackground'
 import { InfiniteMovingCardsDemo } from './components/InfiniteMovingCardsDemo'
 import { LampDemo } from './components/LampDemo'
 // import ProjectSection from './components/ProjectSection'
@@ -12,7 +12,7 @@ import SocialSection from './components/SocialSection'
 export default function App() {
   return (
     <div className="">
-      <WavyBackgroundDemo />
+      {/* <WavyBackgroundDemo /> */}
       <LampDemo />
       {/* <ProjectSection /> */}
       <StickyScrollRevealDemo />

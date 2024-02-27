@@ -6,7 +6,7 @@ const content = [
         title: "Auth for To-do-List",
         description:
             "This project focuses on developing a secure authentication system for a to-do list application using Node.js, Express, and MongoDB. Authentication is a crucial aspect of any web application, ensuring that only authorized users can access sensitive data or perform certain actions.",
-        image: "./img/notes.png"
+        image: "./img/form.webp"
     },
     {
         title: "Real Estate Web App",
