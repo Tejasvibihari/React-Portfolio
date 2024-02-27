@@ -1,6 +1,6 @@
 
-import HeroContent from "./HeroContent";
-import { WavyBackground } from "./ui/wavy-background";
+import HeroContent from "../HeroContent";
+import { WavyBackground } from "../ui/wavy-background";
 
 export default function WavyBackgroundDemo() {
 
