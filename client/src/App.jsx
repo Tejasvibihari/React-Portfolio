@@ -6,13 +6,15 @@ import { LampDemo } from './components/LampDemo'
 import WorkSection from './components/WorkSection'
 import { StickyScrollRevealDemo } from './components/StickyScrollRevealDemo'
 import SocialSection from './components/SocialSection'
+import { BackgroundBeamsDemo } from './components/BackgroundBeamsDemo'
 // import InfiniteMovingCardsDemo from './components/InfiniteMovingCardsDemo';
 
 
 export default function App() {
   return (
     <div className="">
-      <WavyBackgroundDemo />
+      {/* <WavyBackgroundDemo /> */}
+      <BackgroundBeamsDemo />
       <LampDemo />
       {/* <ProjectSection /> */}
       <StickyScrollRevealDemo />
