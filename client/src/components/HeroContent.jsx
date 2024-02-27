@@ -17,7 +17,7 @@ export default function HeroContent() {
 
     return (
         <>
-            <div className="grid gap-16 grid-cols-1 md:grid-cols-2 text-center p-4 max-w-full md:mx-[150px]">
+            <div className="grid gap-16 grid-cols-1 md:grid-cols-2 text-center p-4 max-w-full md:mx-[150px] z-50">
                 <div className="flex flex-col mx-6 my-auto">
                     <h3 className="text-[#71D9D3] text-left font-semibold">Hello, I am Tejasvi Kumar</h3>
                     <div className="text-7xl font-[Anta] text-left text-white">
