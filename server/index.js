@@ -37,7 +37,7 @@ const sendSignUpEmail = async (email) => {
     catch (error) {
         console.log(error)
     }
-}
+};
 
 app.post("/api/subscribe", (req, res) => {
     const email = req.body.email;
