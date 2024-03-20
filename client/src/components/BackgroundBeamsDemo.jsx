@@ -1,7 +1,6 @@
 "use client";
 // import React from "react";
 import { BackgroundBeams } from "./ui/background-beams";
-import HeroContent from "./HeroContent";
 import { useState, useEffect } from "react";
 
 export function BackgroundBeamsDemo() {
