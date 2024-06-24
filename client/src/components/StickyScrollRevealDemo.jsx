@@ -9,10 +9,10 @@ const content = [
         image: "./img/form.webp"
     },
     {
-        title: "Real Estate Web App",
+        title: "Invoice And Inventory Management",
         description:
-            "This project is a comprehensive real estate web application developed using Node.js, Express.js, MongoDB, and React. The application serves as a platform for users to browse, search, and discover real estate properties, facilitating the buying, selling, and renting of residential and commercial properties.",
-        image: "./img/notes.png"
+            "The app provides detailed analytics and reporting to help you make informed decisions and ensure that your inventory is always at optimal levels. With a clean and intuitive user interface.",
+        image: "./img/invoice.png"
     },
     {
         title: "To do list",
