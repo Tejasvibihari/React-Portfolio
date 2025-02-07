@@ -3,10 +3,14 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const content = [
     {
-        title: "Auth for To-do-List",
-        description:
-            "This project focuses on developing a secure authentication system for a to-do list application using Node.js, Express, and MongoDB. Authentication is a crucial aspect of any web application, ensuring that only authorized users can access sensitive data or perform certain actions.",
-        image: "./img/form.webp"
+        title: "Ai Powered Chrome Extension",
+        description: "An innovative extension that scrapes, cleans, and accurately summarizes website content by removing ads and distractions while preserving key details. Built with Puppeteer, Gemini, ChatGPT, React, and Redux.",
+        image: "./img/Ai Extension.webp"
+    },
+    {
+        title: "Library Student Management System",
+        description: "A MERN-based platform for managing student memberships, payments, and seat reservations with automated email notifications and real-time status updates.",
+        image: "./img/LibraryManagement.webp"
     },
     {
         title: "Invoice And Inventory Management",
@@ -15,18 +19,11 @@ const content = [
         image: "./img/invoice.png"
     },
     {
-        title: "To do list",
+        title: "Auth for To-do-List",
         description:
-            "This project is a modern To-Do List application developed using Node.js, Express.js, MongoDB, and React. The application allows users to create, read, update, and delete tasks, providing a seamless and intuitive interface for managing daily tasks and activities.",
-        image: "./img/notes.png"
+            "This project focuses on developing a secure authentication system for a to-do list application using Node.js, Express, and MongoDB. Authentication is a crucial aspect of any web application, ensuring that only authorized users can access sensitive data or perform certain actions.",
+        image: "./img/form.webp"
     },
-    {
-        title: "Blog Web App",
-        description:
-            "This project is a dynamic blog web application developed using Node.js, Express.js, MongoDB, and EJS (Embedded JavaScript). The application allows users to create, read, update, and delete blog posts, providing a platform for sharing thoughts, ideas, and experiences with a wider audience.",
-        image: "./img/notes.png"
-    }
-
 ];
 export function StickyScrollRevealDemo() {
     return (

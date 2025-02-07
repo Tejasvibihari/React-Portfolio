@@ -3,6 +3,8 @@ import { useState } from 'react';
 
 export default function EmailSubscription() {
     const [email, setEmail] = useState('');
+    const [loading, setLoading] = useState(false);
+    // const [email, setEmail] = useState('');
 
     const handleChange = (event) => {
         setEmail(event.target.value);
@@ -12,12 +14,10 @@ export default function EmailSubscription() {
         console.log(email);
         try {
             console.log("hello");
-            // const form = event.currentTarget;
-            // const data = new FormData();
-            // data.append("email", form.email.value);
+
             try {
                 console.log("hello");
-                const res = await axios.post("/api/subscribe", { email: email });
+                const res = await axios.post("/api/mail/sendemail", { email: email });
                 console.log(res);
             } catch (error) {
                 console.log(error);

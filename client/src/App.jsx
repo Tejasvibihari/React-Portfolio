@@ -15,7 +15,7 @@ export default function App() {
       <StickyScrollRevealDemo />
       <WorkSection />
       <InfiniteMovingCardsDemo />
-      <EmailSubscription />
+      {/* <EmailSubscription /> */}
       <SocialSection />
     </div>
   )
